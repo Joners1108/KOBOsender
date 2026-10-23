@@ -1,0 +1,10 @@
+Options -Indexes
+DirectoryIndex index.php
+
+RewriteEngine On
+RewriteRule ^files/?$ files.php [L,QSA]
+RewriteRule ^send/?$ send.php [L,QSA]
+
+<Files "style.css">
+Header set Cache-Control "public, max-age=604800, immutable"
+</Files>
