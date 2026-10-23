@@ -1,0 +1,8 @@
+uploads/
+current.json
+.env
+.htaccess
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
